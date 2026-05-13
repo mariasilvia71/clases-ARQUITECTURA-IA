@@ -162,7 +162,7 @@ cd clases
 **Paso 3: Crear un entorno seguro de trabajo (entorno virtual)**
 Para mantener tu computadora ordenada, vamos a crear un espacio aislado solo para las cosas de este curso. Abre una terminal dentro de la carpeta `clases` que acabas de descargar y escribe:
 ```bash
-python -m venv .venv
+py -3.12 -m venv .venv
 ```
 Luego actívalo:
 - En **Windows**: `.venv\Scripts\activate`
